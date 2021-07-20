@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <title>Iris</title>
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="index.html" class="nav__logo">IRIS</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link active">Главная</a></li>
+                    <li class="nav__item drop__mobile">
+                        <a href="product-page.html" class="nav__link">Мужское</a>
+                        <div class="drop__mega">
+                            <div class="drop__content">
+                                <div class="drop__row">
+                                    <img src="img/jackets.jpg" alt="">
+                                    <div class="bgcolor"></div>
+                                    <p>КУРТКИ</p>
+                                </div>
+                                <div class="drop__row">
+                                    <img src="img/hoodie.jpg" alt="">
+                                    <div class="bgcolor"></div>
+                                    <p>ВЕРХ</p>
+                                </div>
+                                <div class="drop__row">
+                                    <img src="img/bottoms.jpg" alt="">
+                                    <div class="bgcolor"></div>
+                                    <p>НИЗ</p>
+                                </div>
+                                <div class="drop__row">
+                                    <img src="img/ac.jpg" alt="">
+                                    <div class="bgcolor"></div>
+                                    <p>АКСЕССУАРЫ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav__item drop__mobile"><a href="#woman" class="nav__link">Женское</a></li>
+                    <li class="nav__item"><a href="#delivery" class="nav__link">Доставка</a></li>
+                    <li class="nav__item"><a href="#faq" class="nav__link">FAQ</a></li>
+                </ul>
+            </div>
+            <div>
+                <i class='bx bx-cart nav__cart'></i>
+                <i class='bx bx-menu nav__toggle' id="nav-toggle"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main">
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">ВСЕ ПРОСТО<br><br><span>ИСПАРЯЕТСЯ</span></h1>
+                </div>
+                <!-- <img src="img/homeo.png" alt="" class="home__img"> -->
+            </div>
+        </section>
+        <section class="collection section">
+            <div class="collection__container bd-grid">
+                <div class="collection__box">
+                    <div class="collection__data">
+                        <div class="collection__vision">
+                            <h2 class="collection__title"><span class="collection__subtitle">Мужская</span><br>Коллекция</h2>    
+                        </div>                   
+                    </div>
+                </div>
+                <div class="collection__box2">
+                    <div class="collection__data">
+                        <div class="collection__vision">
+                            <h2 class="collection__title"><span class="collection__subtitle">Женская</span><br>Коллекция</h2>         
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured section" id="featured">
+            <h2 class="section-title">РЕКОМЕНДУЕМЫЕ ОТДЕЛЫ</h2>
+            <a href="#" class="section-all">Открыть страницу</a>
+
+            <div class="featured__container bd-grid">
+                <div class="featured__product">
+                    <div class="featured__box">
+                        <div class="featured__new">NEW</div>
+                        <img src="img/baseborange.png" alt="" class="featured__img">
+                    </div>
+                    <div class="featured__data">
+                        <h3 class="featured__name">Дух творчества</h3>
+                        <span class="featured__preci">Оранжевая магия</span>
+                    </div>
+                </div>
+
+                <div class="featured__product">
+                    <div class="featured__box">
+                        <div class="featured__new">NEW</div>
+                        <img src="img/men-jince.jpg" alt="" class="featured__img">
+                    </div>
+                    <div class="featured__data">
+                        <h3 class="featured__name">ДЖИНСЫ НОВОГО СЕЗОНА</h3>
+                        <span class="featured__preci">Кажется, время пришло...</span>
+                    </div>
+                </div>
+
+                <div class="featured__product">
+                    <div class="featured__box">
+                        <div class="featured__new">NEW</div>
+                        <img src="img/drmartens.png" alt="" class="featured__img">
+                    </div>
+                    <div class="featured__data">
+                        <h3 class="featured__name">dr martens</h3>
+                        <span class="featured__preci">То, что ты давно ищешь</span>
+                    </div>
+                </div>
+
+                <div class="featured__product">
+                    <div class="featured__box">
+                        <div class="featured__new">NEW</div>
+                        <img src="img/plat.png" alt="" class="featured__img">
+                    </div>
+                    <div class="featured__data">
+                        <h3 class="featured__name">По платью встречают</h3>
+                        <span class="featured__preci">...весну, конечно же!</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="offer section" id="offer">
+            <div class="offer__bg">
+                <div class="offer__data">
+                    <h2 class="offer__title">Скидки уже до -60%</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="new section" id="new">
+            <h2 class="section-title">НОВЫЕ ПОСТУПЛЕНИЯ</h2>
+            <a href="#" class="section-all">Открыть страницу</a>
+            <div class="new__container bd-grid">
+                <div class="new__box">
+                    <img src="img/new1.png" alt="" class="new__img">
+                    <div class="new__link">
+                        <a href="product-page.html" class="button">ОТКРЫТЬ</a>
+                    </div>
+                </div>
+                <div class="new__box">
+                    <img src="img/new2.png" alt="" class="new__img">
+                    <div class="new__link">
+                        <a href="#" class="button">ОТКРЫТЬ</a>
+                    </div>
+                </div>
+                <div class="new__box">
+                    <img src="img/new6.png" alt="" class="new__img">
+                    <div class="new__link">
+                        <a href="#" class="button">ОТКРЫТЬ</a>
+                    </div>
+                </div>
+                <div class="new__box">
+                    <img src="img/new4.png" alt="" class="new__img">
+                    <div class="new__link">
+                        <a href="#" class="button">ОТКРЫТЬ</a>
+                    </div>
+                </div>
+                <div class="new__box">
+                    <img src="img/new3.png" alt="" class="new__img">
+                    <div class="new__link">
+                        <a href="#" class="button">ОТКРЫТЬ</a>
+                    </div>
+                </div>
+                <div class="new__box">
+                    <img src="img/new5.png" alt="" class="new__img">
+                    <div class="new__link">
+                        <a href="#" class="button">ОТКРЫТЬ</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter section" id="subscribed">
+            <div class="newsletter__container bd-grid">
+                <div class="newsletter__subscribe">
+                    <h2 class="section-title">ПОДПИШИСЬ</h2>
+                    <p class="newsletter__description">
+                        Никакого спама. Только важная информация. Специально для тебя.
+                    </p>
+                    <form action="" class="newsletter__form">
+                        <input type="text" class="newsletter__input" placeholder="Введи свой Email">
+                        <a href="#" class="button">ПОДПИСАТЬСЯ</a>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="section-info">
+        <div class="info-all">
+            <div class="general-info">
+                <h2 class="section-title">КРАТКАЯ ИНФОРМАЦИЯ</h2>
+            </div>
+    
+            <div class="information bd-grid">
+                <div class="box-info">
+                        <div class="icon-info front">
+                            <img class="short-info" src="/img/order-tracking2.0.svg" alt="">
+                        </div>
+                        <div class="icon-info back">
+                            <h5>Отслеживание</h5>
+                        </div>
+                </div>
+    
+                <div class="box-info">
+                        <div class="icon-info front">
+                            <img class="short-info" src="/img/shopping-cart2.0.svg" alt="">
+                        </div>
+                        <div class="icon-info back">
+                            <h5>Корзина</h5>
+                        </div>
+                </div>
+    
+                <div class="box-info">
+                        <div class="icon-info front">
+                            <img class="short-info" src="/img/box2.0.svg" alt="">
+                        </div>
+                        <div class="icon-info back">
+                            <h5>Доставка</h5>
+                        </div>
+                </div>
+    
+                <div class="box-info">
+                        <div class="icon-info front">
+                            <img class="short-info" src="/img/credit-card2.0.svg" alt="">
+                        </div>
+                        <div class="icon-info back">
+                            <h5>Оплата</h5>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="under-footer">
+        <div class="under-footer-all bd-grid">
+            <div class="need-help">
+                <h2>НУЖНА ПОМОЩЬ?</h2>
+            </div>
+            <div class="mail-inf">
+                <img src="/img/email2.svg" alt="">
+                <p>iris@gmail.com</p>
+            </div>
+            <div class="telegram-inf">
+                <img src="/img/telegram.svg" alt="">
+                <img src="/img/vk.svg" alt="">
+                <img src="/img/inst.svg" alt="">
+                <img src="/img/twitter.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="copyright">
+        <p>© 2021 IRIS</p>
+    </section>
+    <script src="js/main.js"></script> 
+</body>
+</html>
